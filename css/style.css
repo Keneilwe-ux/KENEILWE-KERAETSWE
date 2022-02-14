@@ -1,0 +1,29 @@
+#headerTable {
+    width: 100%;
+
+}
+.logo {
+    width: 80px;
+}
+nav {
+    margin-right: 16px;
+}
+a {
+    margin-right: 16px;
+}
+iframe {
+    width: 200%;
+}
+#UserImage {
+    width: 250px;
+   
+}
+.bioBox {
+    width: 70%;
+    text-align: left;
+}
+.btn {
+    padding: 16px;
+    border-radius: 10px;
+    font-size: medium;
+}
