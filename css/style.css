@@ -1,7 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+h1, h2, h3, h4, h5, h6, p, a, input, textarea, button, li {
+    font-family: Roboto, sans-serif
+}
+
 #headerTable {
     width: 100%;
-
 }
+#mainTable {
+    width: 100%;
+}
+#maintable{
+    width: 50%;
+}
+
 .logo {
     width: 80px;
 }
@@ -10,20 +21,117 @@ nav {
 }
 a {
     margin-right: 16px;
+    text-decoration: none;
+    color: black;
 }
-iframe {
-    width: 200%;
+main {
+    height: 165vh;
+}
+video {
+    width: 100%;
 }
 #UserImage {
-    width: 250px;
+    width: 300px;
    
 }
 .bioBox {
     width: 70%;
     text-align: left;
 }
+.info {
+    width: 50%;
+    text-align: left;
+}
+.pro {
+    width: 50;
+    text-align: center;
+}
 .btn {
     padding: 16px;
     border-radius: 10px;
     font-size: medium;
+}
+.icon {
+    text-align: left;
+    font-size: x-small;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.phone {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+   
+}
+.social-icon{
+    text-decoration: none;
+    color: black;
+    width: 25%;
+    font-size: x-large;
+    margin: 20x;
+   
+   
+
+}
+form{
+    margin-top: 50px;
+    
+
+}
+.form-control{
+    width: 500px;
+    background: transparents;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+    color: black;
+    font-size: 18px;
+    margin-bottom: 16px;
+    
+}
+input{
+    height: 40px;
+}
+form .submit{
+    background-color: #ff5722;
+    border-color: transparent;
+    color: #fff;
+    font-size: 20px;
+    letter-spacing: 2px;
+    height: 50px;
+    margin-top: 20px;
+    transition: 0.4s ease;
+}
+form .submit:hover{
+    background-color: #f44336;
+    cursor: pointer;
+}
+footer{
+    height: 100px;
+    background-color: burlywood;
+}
+.ME{
+    width: 700px;
+    padding: 40px;
+    text-align: center;
+    margin: auto;
+    margin-top: 5%;
+
+}
+.number{
+    width: 900px;
+    padding: 40px;
+    text-align: left;
+    margin: auto;
+    margin-top: 5%;
+
+}
+.box {
+    width: 80px;
+    padding: 40px;
+    text-align: right;
+    margin: auto;
+    margin-top: 5%;
 }

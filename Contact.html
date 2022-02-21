@@ -1,48 +1,102 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <p style="text-align:center;"><title style="text-align:center;">Contact us</title></p>
+        <title>KENEILWE KERAETSWE</title>
+        <link rel="stylesheet" href="./css/style.css"
     </head>
+  
     <body>
-        <div style="background-color:blanchedalmond;">
+        
         <header>
-            <div style="background-color:lightgrey;color:white;padding:20px;">
-                <nav>
-                    <p style="text-align:right;"><a href="Home.html">Home</a>
-                    <a href="About.html">About me</a>
-                    <a href="Contact.html">Contact us</a></p>
-                    <p><img src="assets/logo/KCK (2).jpg" style="width:100px;height:90px;"></p>
-                </nav>
-                </div>
-
-        </header><br>
-
-        <main><br><br>
-            <h1 style="text-align: center;">Contact us</h1><br>
-
-            <form action="/action_page.php">
-                
-                <p style="text-align:center;"><input placeholder="Full Name" type="name"></p>
-                <p style="text-align:center;"><input placeholder="Email" type="email"></p>
-                <p style="text-align:center;"><textarea placeholder="Message" cols="21" rows="5"></textarea></p>
-                <p style="text-align:center;"><input type="submit" value="Submit"></p>
-                
-              </form> 
-
-        </main><br><br>
-        <footer>
-            <div style="background-color:lightgrey;color:white;padding:20px;">
-                <ul>
-                    <li><p><a href="https://web.facebook.com/keneilwe.keraetswe">facebook</a></p></li>
-                    <li><p><a href="https://www.linkedin.com/in/keneilwe-keraetswe-9968581b7/">linkedin</a></p></li>  
-                    <li><p style="color:black;">Cell Number: 0797091170</p>
-                    </ul>
-                    </div>
-
-
+            <table id="headerTable">
+                <tr>
+                    <td>
+                        <img class="logo" src="./assets/logo/KCK (2).jpg" alt="">
+                    </td>
+                    <td align="right">
+                        <nav>
                
-                </div>
+                            <a href="Home.html">Home</a>
+                            <a href="About.html">About me</a>
+                            <a href="Contact.html">Contact us</a>
+                        </nav>
+                    </td>
+                </tr>
+
+            </table>
+
+        </header>
+       
+        </header>
+
+        <main>
+            <h1 style="text-align: center;">Contact Us</h1>
+            <div class="number">
+                <table id="maintable">
+                    <tr>
+                        <td>
+                                <a>
+                                    <div class="icon"><ion-icon name="pin"></ion-icon></div>
+                                    <div class="phone">
+                                        <p>Kuruman, Northern Cape</p>
+                                    </div>
+                                </a>
+                           
+                            
+                                <div class="icon"><ion-icon name="call"></ion-icon></div>
+                                <div class="phone">
+                                    <p>0797091170</p>
+
+                                </div>
+                                <div class="icon"><ion-icon name="mail"></ion-icon></div>
+                                <div class="phone">
+                                    <p>Keraetswe.kc@gmail.com</p>
+
+                                </div>
+
+                            </td>
+                            
+                 
+                        <td>
+                        <div class="box">
+                            <form action="https://formspree.io/f/xjvlwpew"
+                            method="POST">
+                              <input type="text" name="name" class="form-control" placeholder=" Full Name" required><br>
+                              <input type="email" name="email" class="form-control" id= email placeholder=" Email Address" required><br>
+                              <textarea name="message" class="form-control" placeholder="Your Message" rows="4" required></textarea>
+                              <input type="submit" name="" class="form-control submit" value="Send message">
+          
+                            </form>
+                        </td>
+                        
+                            
+                        </div>
+                    </tr>
+                </table>
+
+                 
+           
+             </div>
+        </main>
+        <footer align="center">
+            <div>
+            <a class="social-icon" href="https://web.facebook.com/keneilwe.keraetswe" target="_black">
+                <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+            <a class="social-icon" href="https://www.linkedin.com/in/keneilwe-keraetswe-9968581b7/?lipi=urn%3Ali%3Apage%3Aprofile_common_profile_index%3B3b53b0a4-0454-483c-a591-93a03c4e9b45" target="_black">
+                <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+            <a class="social-icon" href=""0797091170" target="_black">
+                <ion-icon name="call"></ion-icon>
+            </a>
+            <a class="social-icon" href="https://www.instagram.com/itukeneilwe/?hl=en" target="_black">
+                <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+            
+            <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+            
+            </div>
+            
         </footer>
-        </div>
     </body>
 </html>
